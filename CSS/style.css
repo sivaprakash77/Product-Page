@@ -1,0 +1,39 @@
+*{
+    padding :0;
+    margin :0;
+    background-color: aliceblue;
+}
+
+.head h1{
+    background-color: rgb(27, 111, 184);
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.container,.container2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.subdiv{
+    width:100%;
+    height:350px;
+    margin:10px;
+}
+
+.container img,.container2 img{
+    width: 40%;
+    height: 100%;
+}
+
+button{
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: rgb(161, 161, 249);
+}
+
